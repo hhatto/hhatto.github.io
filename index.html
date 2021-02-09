@@ -50,19 +50,20 @@
 <p>poyonga is <a href="https://groonga.org">Groonga</a> client for Python.
 version 0.5.0 has been released.</p>
 <p>Supported Apache Arrow in poyonga 0.5.0.</p>
-<p>call select command with output_type=&quot;apache-arrow&quot; option:</p>
+<p>call select command with <code>output_type=&quot;apache-arrow&quot;</code> option:</p>
 <pre style="background-color:#fdf6e3;">
 <code class="language-python" data-lang="python"><span style="color:#cb4b16;">from </span><span style="color:#657b83;">poyonga </span><span style="color:#cb4b16;">import </span><span style="color:#657b83;">Groonga
-<p>g = </span><span style="color:#b58900;">Groonga</span><span style="color:#657b83;">()
+
+g = </span><span style="color:#b58900;">Groonga</span><span style="color:#657b83;">()
 g.</span><span style="color:#b58900;">call</span><span style="color:#657b83;">(
-</span><span style="color:#839496;">&quot;</span><span style="color:#2aa198;">select</span><span style="color:#839496;">&quot;</span><span style="color:#657b83;">,
-</span><span style="color:#268bd2;">table</span><span style="color:#657b83;">=</span><span style="color:#839496;">&quot;</span><span style="color:#2aa198;">Users</span><span style="color:#839496;">&quot;</span><span style="color:#657b83;">,
-</span><span style="color:#268bd2;">match_columns</span><span style="color:#657b83;">=</span><span style="color:#839496;">&quot;</span><span style="color:#2aa198;">name,location_str,description</span><span style="color:#839496;">&quot;</span><span style="color:#657b83;">,
-</span><span style="color:#268bd2;">query</span><span style="color:#657b83;">=</span><span style="color:#839496;">&quot;</span><span style="color:#2aa198;">東京</span><span style="color:#839496;">&quot;</span><span style="color:#657b83;">,
-</span><span style="color:#268bd2;">output_type</span><span style="color:#657b83;">=</span><span style="color:#839496;">&quot;</span><span style="color:#2aa198;">apache-arrow</span><span style="color:#839496;">&quot;</span><span style="color:#657b83;">,
-</span><span style="color:#268bd2;">output_columns</span><span style="color:#657b83;">=</span><span style="color:#839496;">&quot;</span><span style="color:#2aa198;">_key,name</span><span style="color:#839496;">&quot;</span><span style="color:#657b83;">,
+    </span><span style="color:#839496;">&quot;</span><span style="color:#2aa198;">select</span><span style="color:#839496;">&quot;</span><span style="color:#657b83;">,
+    </span><span style="color:#268bd2;">table</span><span style="color:#657b83;">=</span><span style="color:#839496;">&quot;</span><span style="color:#2aa198;">Users</span><span style="color:#839496;">&quot;</span><span style="color:#657b83;">,
+    </span><span style="color:#268bd2;">match_columns</span><span style="color:#657b83;">=</span><span style="color:#839496;">&quot;</span><span style="color:#2aa198;">name,location_str,description</span><span style="color:#839496;">&quot;</span><span style="color:#657b83;">,
+    </span><span style="color:#268bd2;">query</span><span style="color:#657b83;">=</span><span style="color:#839496;">&quot;</span><span style="color:#2aa198;">東京</span><span style="color:#839496;">&quot;</span><span style="color:#657b83;">,
+    </span><span style="color:#268bd2;">output_type</span><span style="color:#657b83;">=</span><span style="color:#839496;">&quot;</span><span style="color:#2aa198;">apache-arrow</span><span style="color:#839496;">&quot;</span><span style="color:#657b83;">,
+    </span><span style="color:#268bd2;">output_columns</span><span style="color:#657b83;">=</span><span style="color:#839496;">&quot;</span><span style="color:#2aa198;">_key,name</span><span style="color:#839496;">&quot;</span><span style="color:#657b83;">,
 )
-</span></code></pre></p>
+</span></code></pre>
 <ul>
 <li><a href="https://github.com/hhatto/poyonga/releases/tag/ver0.5.0">Release Note</a></li>
 <li>see examples on <a href="https://github.com/hhatto/poyonga#with-apache-arrow">README</a> and
