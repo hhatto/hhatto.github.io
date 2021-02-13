@@ -11,3 +11,8 @@ $ zola serve
 ```
 $ zola build
 ```
+
+## build for production
+```
+$ zola --config config.production.toml build
+```

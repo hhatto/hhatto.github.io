@@ -17,7 +17,7 @@ jobs:
 
       - name: Build
         run: |
-          docker run -u "$(id -u):$(id -g)" -v $PWD:/app --workdir /app balthek/zola:0.13.0 build
+          docker run -u "$(id -u):$(id -g)" -v $PWD:/app --workdir /app balthek/zola:0.13.0 --config config.production.toml build
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
