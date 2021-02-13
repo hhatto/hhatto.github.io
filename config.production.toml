@@ -1,0 +1,26 @@
+# The URL the site will be built for
+base_url = "https://hhatto.github.io"
+
+# Whether to automatically compile all Sass files in the sass directory
+compile_sass = true
+
+# Whether to build a search index to be used later on by a JavaScript library
+build_search_index = true
+
+title = "hhatto's OSS Blog"
+
+theme = "anpu"
+
+taxonomies = [
+    { name = "tags" },
+]
+
+[markdown]
+highlight_code = true
+highlight_theme = "solarized-light"
+
+[extra]
+anpu_menu_links = [
+    { url = "$BASE_URL/tags/", name = "Tags" },
+]
+umami = "b9720373-087a-4e28-9e85-5406b5678f02"
