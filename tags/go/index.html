@@ -24,7 +24,7 @@
     <div class="container">
         <header> 
             <h1 class="site-header">
-                <a href="https:&#x2F;&#x2F;hhatto.github.io">hhatto&#x27;s OSS Blog</a>
+                <a href="https:&#x2F;&#x2F;hhatto.github.io">hhatto&#x27;s OSS DevLog</a>
             </h1>
             <nav>
                 
@@ -47,44 +47,140 @@
     <article class="post-list">
         <header> 
             <h1>
+                <a href="https:&#x2F;&#x2F;hhatto.github.io&#x2F;2021-03&#x2F;">March 2021</a>
+            </h1>
+        </header>
+
+        
+        <div class="content post-summary">
+            <h2 id="devlog">DevLog</h2>
+<h3 id="autopep8"><a href="https://github.com/hhatto/autopep8">autopep8</a></h3>
+<p><a href="https://github.com/hhatto/autopep8/releases/tag/v1.5.6">v1.5.6</a> has been released, and v1.5.7 under development.</p>
+<h4 id="v1-5-7-wip">v1.5.7(WIP)</h4>
+<p>under development</p>
+<ul>
+<li>change: disallow 0 for indent-size option (<a href="https://github.com/hhatto/autopep8/pull/597">#597</a>)</li>
+<li>improved documentation for <code>pyproject.toml</code> config (<a href="https://github.com/hhatto/autopep8/pull/596">#596</a>)
+<ul>
+<li>by <a href="https://github.com/howeaj">howeaj</a>. Thnaks!! 🤝 </li>
+<li>see also <a href="https://github.com/hhatto/autopep8/pull/593">#593</a></li>
+</ul>
+</li>
+<li>change: exit code is 99 when error occured cli option parsing (<a href="https://github.com/hhatto/autopep8/pull/595">#595</a>)</li>
+<li>fixed <a href="https://github.com/hhatto/autopep8/issues/591">#591</a> (pull-request: <a href="https://github.com/hhatto/autopep8/pull/592">#592</a>)</li>
+<li>Add Python3.9 for CI (<a href="https://github.com/hhatto/autopep8/pull/590">#590</a>)
+<ul>
+<li>by <a href="https://github.com/heavenshell">heavenshell</a>. Thanks!! 🤝 </li>
+</ul>
+</li>
+</ul>
+<h4 id="v1-5-6">v1.5.6</h4>
+<ul>
+<li>requirements pycodestyle version 2.7.0 and higher version (<a href="https://github.com/hhatto/autopep8/pull/589">#589</a>)
+<ul>
+<li>Thanks <a href="https://github.com/heavenshell">heavenshell</a>'s contribution 🤝 </li>
+</ul>
+</li>
+<li>E128 check similar to pycodestyle (<a href="https://github.com/hhatto/autopep8/pull/585">#585</a>)
+<ul>
+<li>Thanks <a href="https://github.com/yamt">yamt</a>'s contribution 🤝 </li>
+</ul>
+</li>
+</ul>
+<h3 id="gocloc"><a href="https://github.com/hhatto/gocloc">gocloc</a></h3>
+<ul>
+<li>fix broken build on GitHub Actions <a href="https://github.com/hhatto/gocloc/commit/c8c8e9894825d5de6f88543377f1b881e999e6f5">c8c8e98</a>
+<ul>
+<li>refs: https://blog.golang.org/go116-module-changes</li>
+</ul>
+</li>
+<li>Add Language
+<ul>
+<li><a href="https://github.com/harc/ohm">Ohm</a> (<a href="https://github.com/hhatto/gocloc/commit/b2dad3847df87ab84c56bb8d27c91ca041e69c16">b2dad38</a>)</li>
+<li><a href="https://mozilla.github.io/nunjucks/">Nunjucks</a> (<a href="https://github.com/hhatto/gocloc/commit/b88980d11e4e4d8f546c34e05174a3aac2309265">b88980d</a>)</li>
+<li><a href="https://en.wikipedia.org/wiki/Jakarta_Server_Pages">JSP</a> (<a href="https://github.com/hhatto/gocloc/pull/44">#44</a>)</li>
+</ul>
+</li>
+</ul>
+<h2 id="thanks-to-all-the-sponsors">Thanks to all the sponsors</h2>
+<ul>
+<li><a href="https://github.com/UmedaTakefumi">https://github.com/UmedaTakefumi</a></li>
+</ul>
+<p>Thanks!!</p>
+
+        </div>
+        
+        
+        
+    <div class="article-info">
+        
+        <div class="article-date">31 March 2021</div>
+        
+        <div class="article-taxonomies">
+            
+            
+                <ul class="article-tags">
+                    
+                    <li><a href="https://hhatto.github.io/tags/python/">#Python</a></li>
+                    
+                    <li><a href="https://hhatto.github.io/tags/go/">#Go</a></li>
+                    
+                </ul>
+            
+        </div>
+    </div>
+
+    </article>
+
+
+
+    <article class="post-list">
+        <header> 
+            <h1>
                 <a href="https:&#x2F;&#x2F;hhatto.github.io&#x2F;2021-02&#x2F;">February 2021</a>
             </h1>
         </header>
 
         
         <div class="content post-summary">
-            <h2 id="autopep8"><a href="https://github.com/hhatto/autopep8">autopep8</a></h2>
+            <h2 id="devlog">DevLog</h2>
+<h3 id="autopep8"><a href="https://github.com/hhatto/autopep8">autopep8</a></h3>
 <p><a href="https://github.com/hhatto/autopep8/releases/tag/v1.5.5">v1.5.5</a> has been released,
 and development of version 2.0 is underway.</p>
-<h3 id="v2-under-develoment">v2 (under develoment)</h3>
+<h4 id="v2-under-develoment">v2 (under develoment)</h4>
 <ul>
 <li>change: not use lib2to3's throw fixes (<a href="https://github.com/hhatto/autopep8/pull/583">#583</a>)</li>
 </ul>
-<h3 id="v1-5-5">v1.5.5</h3>
+<h4 id="v1-5-5">v1.5.5</h4>
 <ul>
 <li>improvement: lazy load <code>toml</code> package (<a href="https://github.com/hhatto/autopep8/pull/566">#566</a>)</li>
 <li>fix: not convert raw string for w605 fixed method (<a href="https://github.com/hhatto/autopep8/pull/580">#580</a>)</li>
 </ul>
-<h3 id="other">other</h3>
+<h4 id="other">other</h4>
 <ul>
 <li>started using <a href="https://pypi.org/project/twine/">twine</a> for package uploads. (<a href="https://github.com/hhatto/autopep8/commit/5c2d587bdd71501cd74baba119fabaed839563ad">5c2d587</a>)</li>
 </ul>
-<h3 id="links">Links</h3>
+<h4 id="links">Links</h4>
 <ul>
 <li><a href="https://pypi.org/project/autopep8/1.5.5/">https://pypi.org/project/autopep8/1.5.5/</a></li>
 <li><a href="https://github.com/hhatto/autopep8/releases/tag/v1.5.5">https://github.com/hhatto/autopep8/releases/tag/v1.5.5</a></li>
 <li><a href="https://github.com/hhatto/autopep8/milestone/3">autopep8 v2 milestone</a></li>
 </ul>
-<h2 id="gocloc"><a href="https://github.com/hhatto/gocloc">gocloc</a></h2>
+<h3 id="gocloc"><a href="https://github.com/hhatto/gocloc">gocloc</a></h3>
 <p>version <a href="https://github.com/hhatto/gocloc/releases/tag/v0.4.0">v0.4.0</a> and <a href="https://github.com/hhatto/gocloc/releases/tag/v0.4.1">v0.4.1</a> has been released.</p>
 <p>many fix and It now supports <a href="https://blog.golang.org/go1.16">Go1.16</a> and can also use darwin/arm64 (M1 Mac) binary.</p>
 <ul>
 <li>Add Language: <a href="https://ring-lang.github.io/">Ring</a> <a href="https://github.com/hhatto/gocloc/commit/ecf2a9b510f6583a05c67b8705e9bd79e8015ce1">ecf2a9b</a></li>
 </ul>
-<h2 id="pgmagick"><a href="https://github.com/hhatto/pgmagick">pgmagick</a></h2>
+<h3 id="pgmagick"><a href="https://github.com/hhatto/pgmagick">pgmagick</a></h3>
 <ul>
 <li>fix broken build <a href="https://github.com/hhatto/pgmagick/pull/66">#66</a></li>
 </ul>
+<h2 id="thanks-to-all-the-sponsors">Thanks to all the sponsors</h2>
+<ul>
+<li><a href="https://github.com/UmedaTakefumi">https://github.com/UmedaTakefumi</a></li>
+</ul>
+<p>Thanks!!</p>
 
         </div>
         
@@ -121,7 +217,8 @@ and development of version 2.0 is underway.</p>
 
         
         <div class="content post-summary">
-            <h2 id="poyonga"><a href="https://github.com/hhatto/poyonga">poyonga</a></h2>
+            <h2 id="devlog">DevLog</h2>
+<h3 id="poyonga"><a href="https://github.com/hhatto/poyonga">poyonga</a></h3>
 <p>poyonga is <a href="https://groonga.org">Groonga</a> client for Python.
 version 0.5.0 has been released.</p>
 <p>Supported Apache Arrow in poyonga 0.5.0.</p>
@@ -145,12 +242,12 @@ g.</span><span style="color:#b58900;">call</span><span style="color:#657b83;">(
 <a href="https://github.com/hhatto/poyonga/tree/master/examples/groonga_microblog_tutorial">examples directory</a>.</li>
 </ul>
 <p>Thank you for <a href="https://github.com/kou">kou</a>'s contribution.</p>
-<h2 id="gocloc"><a href="https://github.com/hhatto/gocloc">gocloc</a></h2>
+<h3 id="gocloc"><a href="https://github.com/hhatto/gocloc">gocloc</a></h3>
 <ul>
 <li>migrate CI to <a href="https://github.com/hhatto/gocloc/blob/master/.github/workflows/go.yml">GitHub Actions</a> from Travis CI</li>
 <li>Add Language: <a href="https://www.autohotkey.com/">AutoHotkey</a> <a href="https://github.com/hhatto/gocloc/commit/c4330a0b8e3cc529cdcd3baed60731707b5acc50">c4330a0</a></li>
 </ul>
-<h2 id="pgmagick"><a href="https://github.com/hhatto/pgmagick">pgmagick</a></h2>
+<h3 id="pgmagick"><a href="https://github.com/hhatto/pgmagick">pgmagick</a></h3>
 <ul>
 <li>migrate CI to <a href="https://github.com/hhatto/gocloc/blob/master/.github/workflows/python.yml">GitHub Actions</a> from Travis CI <a href="https://github.com/hhatto/pgmagick/pull/62">#62</a>
 <ul>
@@ -158,6 +255,11 @@ g.</span><span style="color:#b58900;">call</span><span style="color:#657b83;">(
 </ul>
 </li>
 </ul>
+<h2 id="thanks-to-all-the-sponsors">Thanks to all the sponsors</h2>
+<ul>
+<li><a href="https://github.com/UmedaTakefumi">https://github.com/UmedaTakefumi</a></li>
+</ul>
+<p>Thanks!!</p>
 
         </div>
         
@@ -193,7 +295,7 @@ g.</span><span style="color:#b58900;">call</span><span style="color:#657b83;">(
         </main>
         <footer>
             <p>
-                © hhatto&#x27;s OSS Blog 2021<br>
+                © hhatto&#x27;s OSS DevLog 2021<br>
                 Powered by <a target="_blank" href="https://getzola.com/">Zola</a>, Theme <a target="_blank" href="https://github.com/zbrox/anpu-zola-theme">Anpu</a>.
             </p>
             <p>
