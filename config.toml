@@ -21,5 +21,6 @@ highlight_theme = "solarized-light"
 
 [extra]
 anpu_menu_links = [
+    { url = "https://github.com/hhatto/hhatto", name = "About" },
     { url = "$BASE_URL/tags/", name = "Tags" },
 ]
