@@ -20,10 +20,17 @@
         <lastmod>2021-04-30</lastmod>
     </url>
     <url>
+        <loc>https://hhatto.github.io/2021-05/</loc>
+        <lastmod>2021-05-31</lastmod>
+    </url>
+    <url>
         <loc>https://hhatto.github.io/page/1/</loc>
     </url>
     <url>
         <loc>https://hhatto.github.io/tags/</loc>
+    </url>
+    <url>
+        <loc>https://hhatto.github.io/tags/deno/</loc>
     </url>
     <url>
         <loc>https://hhatto.github.io/tags/go/</loc>
@@ -36,5 +43,11 @@
     </url>
     <url>
         <loc>https://hhatto.github.io/tags/python/</loc>
+    </url>
+    <url>
+        <loc>https://hhatto.github.io/tags/typescript/</loc>
+    </url>
+    <url>
+        <loc>https://hhatto.github.io/tags/zsh/</loc>
     </url>
 </urlset>
