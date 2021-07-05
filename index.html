@@ -46,6 +46,35 @@
     <article class="post-list">
         <header> 
             <h1>
+                <a href="https:&#x2F;&#x2F;hhatto.github.io&#x2F;2021-06&#x2F;">Jun 2021</a>
+            </h1>
+        </header>
+
+        
+        <div class="content post-summary">
+            <p>Rest this month</p>
+
+        </div>
+        
+        
+        
+    <div class="article-info">
+        
+        <div class="article-date">30 June 2021</div>
+        
+        <div class="article-taxonomies">
+            
+            
+        </div>
+    </div>
+
+    </article>
+
+                
+                    
+    <article class="post-list">
+        <header> 
+            <h1>
                 <a href="https:&#x2F;&#x2F;hhatto.github.io&#x2F;2021-05&#x2F;">May 2021</a>
             </h1>
         </header>
@@ -339,95 +368,14 @@ and development of version 2.0 is underway.</p>
     </article>
 
                 
-                    
-    <article class="post-list">
-        <header> 
-            <h1>
-                <a href="https:&#x2F;&#x2F;hhatto.github.io&#x2F;2021-01&#x2F;">January 2021</a>
-            </h1>
-        </header>
-
-        
-        <div class="content post-summary">
-            <h2 id="devlog">DevLog</h2>
-<h3 id="poyonga"><a href="https://github.com/hhatto/poyonga">poyonga</a></h3>
-<p>poyonga is <a href="https://groonga.org">Groonga</a> client for Python.
-version 0.5.0 has been released.</p>
-<p>Supported Apache Arrow in poyonga 0.5.0.</p>
-<p>call select command with <code>output_type=&quot;apache-arrow&quot;</code> option:</p>
-<pre style="background-color:#fdf6e3;">
-<code class="language-python" data-lang="python"><span style="color:#cb4b16;">from </span><span style="color:#657b83;">poyonga </span><span style="color:#cb4b16;">import </span><span style="color:#657b83;">Groonga
-
-g = </span><span style="color:#b58900;">Groonga</span><span style="color:#657b83;">()
-g.</span><span style="color:#b58900;">call</span><span style="color:#657b83;">(
-    </span><span style="color:#839496;">&quot;</span><span style="color:#2aa198;">select</span><span style="color:#839496;">&quot;</span><span style="color:#657b83;">,
-    </span><span style="color:#268bd2;">table</span><span style="color:#657b83;">=</span><span style="color:#839496;">&quot;</span><span style="color:#2aa198;">Users</span><span style="color:#839496;">&quot;</span><span style="color:#657b83;">,
-    </span><span style="color:#268bd2;">match_columns</span><span style="color:#657b83;">=</span><span style="color:#839496;">&quot;</span><span style="color:#2aa198;">name,location_str,description</span><span style="color:#839496;">&quot;</span><span style="color:#657b83;">,
-    </span><span style="color:#268bd2;">query</span><span style="color:#657b83;">=</span><span style="color:#839496;">&quot;</span><span style="color:#2aa198;">東京</span><span style="color:#839496;">&quot;</span><span style="color:#657b83;">,
-    </span><span style="color:#268bd2;">output_type</span><span style="color:#657b83;">=</span><span style="color:#839496;">&quot;</span><span style="color:#2aa198;">apache-arrow</span><span style="color:#839496;">&quot;</span><span style="color:#657b83;">,
-    </span><span style="color:#268bd2;">output_columns</span><span style="color:#657b83;">=</span><span style="color:#839496;">&quot;</span><span style="color:#2aa198;">_key,name</span><span style="color:#839496;">&quot;</span><span style="color:#657b83;">,
-)
-</span></code></pre>
-<ul>
-<li><a href="https://github.com/hhatto/poyonga/releases/tag/ver0.5.0">Release Note</a></li>
-<li>see examples on <a href="https://github.com/hhatto/poyonga#with-apache-arrow">README</a> and
-<a href="https://github.com/hhatto/poyonga/tree/master/examples/groonga_microblog_tutorial">examples directory</a>.</li>
-</ul>
-<p>Thank you for <a href="https://github.com/kou">kou</a>'s contribution.</p>
-<h3 id="gocloc"><a href="https://github.com/hhatto/gocloc">gocloc</a></h3>
-<ul>
-<li>migrate CI to <a href="https://github.com/hhatto/gocloc/blob/master/.github/workflows/go.yml">GitHub Actions</a> from Travis CI</li>
-<li>Add Language: <a href="https://www.autohotkey.com/">AutoHotkey</a> <a href="https://github.com/hhatto/gocloc/commit/c4330a0b8e3cc529cdcd3baed60731707b5acc50">c4330a0</a></li>
-</ul>
-<h3 id="pgmagick"><a href="https://github.com/hhatto/pgmagick">pgmagick</a></h3>
-<ul>
-<li>migrate CI to <a href="https://github.com/hhatto/gocloc/blob/master/.github/workflows/python.yml">GitHub Actions</a> from Travis CI <a href="https://github.com/hhatto/pgmagick/pull/62">#62</a>
-<ul>
-<li><a href="https://github.com/hhatto/pgmagick/blob/master/.github/workflows/python-macos.yml">with macOSX</a></li>
-</ul>
-</li>
-</ul>
-<h2 id="thanks-to-all-the-sponsors">Thanks to all the sponsors</h2>
-<ul>
-<li><a href="https://github.com/UmedaTakefumi">https://github.com/UmedaTakefumi</a></li>
-</ul>
-<p>Thanks!!</p>
-
-        </div>
-        
-        
-        
-    <div class="article-info">
-        
-        <div class="article-date">31 January 2021</div>
-        
-        <div class="article-taxonomies">
-            
-            
-                <ul class="article-tags">
-                    
-                    <li><a href="https://hhatto.github.io/tags/python/">#Python</a></li>
-                    
-                    <li><a href="https://hhatto.github.io/tags/go/">#Go</a></li>
-                    
-                    <li><a href="https://hhatto.github.io/tags/graphicsmagick/">#GraphicsMagick</a></li>
-                    
-                    <li><a href="https://hhatto.github.io/tags/groonga/">#Groonga</a></li>
-                    
-                </ul>
-            
-        </div>
-    </div>
-
-    </article>
-
-                
                 
     <div class="pagination">
         <div class="left pagination-item disabled">
             
         </div>
-        <div class="right pagination-item disabled">
+        <div class="right pagination-item ">
+            
+            <a href="https:&#x2F;&#x2F;hhatto.github.io&#x2F;page&#x2F;2&#x2F;">To older posts</a>
             
         </div>
     </div>
