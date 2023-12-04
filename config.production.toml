@@ -24,4 +24,3 @@ anpu_menu_links = [
     { url = "https://github.com/hhatto/hhatto", name = "About" },
     { url = "$BASE_URL/tags/", name = "Tags" },
 ]
-umami = "b9720373-087a-4e28-9e85-5406b5678f02"
