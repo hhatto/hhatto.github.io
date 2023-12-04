@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="referrer" content="no-referrer-when-downgrade">
+
+    <title>Tag:Rust | hhatto&#x27;s OSS DevLog</title>
+    <meta name="description" content="">
+
+    <link rel="stylesheet" href="https://hhatto.github.io/main.css">
+
+    
+
+    
+      
+    
+</head>
+<body>
+    <a class="skip-main" href="#main">Skip to content</a>
+    <div class="container">
+        <header> 
+            <h1 class="site-header">
+                <a href="https:&#x2F;&#x2F;hhatto.github.io">hhatto&#x27;s OSS DevLog</a>
+            </h1>
+            <nav>
+                
+                
+                
+                <a  href="https:&#x2F;&#x2F;github.com&#x2F;hhatto&#x2F;hhatto">About</a>
+                
+                
+                <a  href="https:&#x2F;&#x2F;hhatto.github.io&#x2F;tags&#x2F;">Tags</a>
+                
+                
+            </nav>
+        </header>
+        <main id="main" tabindex="-1">
+            
+<h1>Tag: #Rust</h1>
+<div class="article-info">
+    <a href="https://hhatto.github.io/tags">To all tags</a>
+</div>
+
+
+
+    <article class="post-list">
+        <header> 
+            <h1>
+                <a href="https:&#x2F;&#x2F;hhatto.github.io&#x2F;2023-11&#x2F;">Nov 2023</a>
+            </h1>
+        </header>
+
+        
+        <div class="content post-summary">
+            <h2 id="devlog">DevLog</h2>
+<h3 id="poyonga"><a href="https://github.com/hhatto/poyonga">poyonga</a></h3>
+<p><a href="https://github.com/hhatto/poyonga/releases/tag/ver0.6.0">v0.6.0</a> has been released.</p>
+<h4 id="v0-6-0">v0.6.0</h4>
+<ul>
+<li>New Feature
+<ul>
+<li>error message with Apache Arrow format. <a href="https://github.com/hhatto/poyonga/pull/21">#21</a> by <a href="https://github.com/kou">kou</a>'s contribution, Thanks!!</li>
+<li>trace log with Apache Arrow format. <a href="https://github.com/hhatto/poyonga/pull/28">#28</a> by <a href="https://github.com/kou">kou</a>'s contribution</li>
+<li>above features enbable with Groonga 13.0.9 and higher version</li>
+</ul>
+</li>
+<li>Support HTTPS (<a href="https://github.com/hhatto/poyonga/pull/17">#17</a>)
+<ul>
+<li>by <a href="https://github.com/tetsuo-dance">tetsuo-dance</a>'s contribution. Thanks 🤝</li>
+</ul>
+</li>
+<li>Improve CI (<a href="https://github.com/hhatto/poyonga/pull/19">#19</a>, <a href="https://github.com/hhatto/poyonga/pull/20">#20</a>)
+<ul>
+<li>by <a href="https://github.com/kou">kou</a>'s contribution.</li>
+</ul>
+</li>
+<li>Migrate to pyproject.toml (<a href="https://github.com/hhatto/poyonga/pull/25">#25</a>)</li>
+</ul>
+<h3 id="gocloc"><a href="https://github.com/hhatto/gocloc">gocloc</a></h3>
+<h4 id="v0-5-x-wip">v0.5.x (WIP)</h4>
+<ul>
+<li>Add Language
+<ul>
+<li><a href="https://kakoune.org/">KakouneScript</a> (<a href="https://github.com/hhatto/gocloc/pull/78">#78</a>)</li>
+</ul>
+</li>
+</ul>
+<h3 id="autopep8"><a href="https://github.com/hhatto/autopep8">autopep8</a></h3>
+<h4 id="v2-1-0-wip">v2.1.0(WIP)</h4>
+<h4 id="issues">issues</h4>
+<ul>
+<li><a href="https://github.com/hhatto/autopep8/issues/689">#689</a>
+<ul>
+<li>received a comment that the problem was reproduced, but I have checked the changes and the release and confirmed that the problem has been resolved in v2.0.4.</li>
+</ul>
+</li>
+</ul>
+<h3 id="cargo-strict"><a href="https://github.com/hhatto/cargo-strict">cargo-strict</a></h3>
+<p>maint. (update packages, check linter warnings, update CI packages)</p>
+<h3 id="fpath"><a href="https://github.com/hhatto/fpath">fpath</a></h3>
+<p>WIP: modernize Python Package <a href="https://github.com/hhatto/fpath/pull/5">#5</a></p>
+<h3 id="tox-pyenv-redux-pyenv-inspect-virtualenv-pyenv">tox-pyenv-redux, pyenv-inspect, virtualenv-pyenv</h3>
+<ul>
+<li><a href="https://github.com/un-def/virtualenv-pyenv">un-def/virtualenv-pyenv</a></li>
+<li><a href="https://github.com/un-def/tox-pyenv-redux">un-def/tox-pyenv-redux</a></li>
+<li><a href="https://github.com/un-def/pyenv-inspect">un-def/pyenv-inspect</a></li>
+</ul>
+<p>These packages are useful for using Python installed with pyenv in tox.
+However, they currently only support CPython.
+I wanted to support PyPy as well, so I am in the process of testing it.
+I think I will be able to pull-request it soon.</p>
+<p>wip:</p>
+<ul>
+<li><a href="https://github.com/un-def/virtualenv-pyenv/compare/master...hhatto:virtualenv-pyenv:pypy?expand=1">Comparing un-def:master...hhatto:pypy · un-def/virtualenv-pyenv</a></li>
+<li><a href="https://github.com/un-def/pyenv-inspect/compare/master...hhatto:pyenv-inspect:pypy?expand=1">Comparing un-def:master...hhatto:pypy · un-def/pyenv-inspect</a></li>
+</ul>
+<h2 id="thanks-to-all-the-sponsors">Thanks to all the sponsors</h2>
+<ul>
+<li><a href="https://github.com/tell-k">tell-k</a></li>
+<li><a href="https://github.com/jeffrade">jeffrade</a></li>
+<li><a href="https://github.com/toshitanian">toshitanian</a></li>
+<li><a href="https://github.com/getsentry">getsentry</a></li>
+<li><a href="https://github.com/codecov">codecov</a></li>
+</ul>
+<p>Thanks!!</p>
+<p>If you would like to support me, please visit <a href="https://github.com/sponsors/hhatto">my GitHub Sponsor page</a>🚪</p>
+
+        </div>
+        
+        
+        
+    <div class="article-info">
+        
+        <div class="article-date">30 November 2023</div>
+        
+        <div class="article-taxonomies">
+            
+            
+                <ul class="article-tags">
+                    
+                    <li><a href="https://hhatto.github.io/tags/go/">#Go</a></li>
+                    
+                    <li><a href="https://hhatto.github.io/tags/python/">#Python</a></li>
+                    
+                    <li><a href="https://hhatto.github.io/tags/rust/">#Rust</a></li>
+                    
+                </ul>
+            
+        </div>
+    </div>
+
+    </article>
+
+
+
+
+        </main>
+        <footer>
+            <p>
+                © hhatto&#x27;s OSS DevLog 2023<br>
+                Powered by <a target="_blank" href="https://getzola.com/">Zola</a>, Theme <a target="_blank" href="https://github.com/zbrox/anpu-zola-theme">Anpu</a>.
+            </p>
+            <p>
+                
+                
+            </p>
+        </footer>
+    </div>
+</body>
+</html>
